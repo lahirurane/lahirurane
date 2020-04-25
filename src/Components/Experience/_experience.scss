@@ -1,0 +1,35 @@
+.experience {
+  display: block;
+  .vertical-timeline {
+    padding-top: 0;
+    margin-top: 2rem;
+    &::before {
+      background: $light-grey;
+    }
+    .vertical-timeline-element-icon {
+      background: $highlight-dark;
+      color: #fff;
+      font-size: 1.33rem;
+      box-shadow: none;
+    }
+    .vertical-timeline-element-content {
+      background: $highlight-dark;
+      color: #fff;
+      box-shadow: none;
+      .vertical-timeline-element-content-arrow {
+        border-right: 7px solid $highlight-dark;
+      }
+      .vertical-timeline-element-date {
+        color: $light-grey;
+      }
+      .date-details {
+        font-size: 0.8rem;
+        color: #eeeeee;
+      }
+      .location-details {
+        font-size: 0.8rem;
+        color: #eeeeee;
+      }
+    }
+  }
+}

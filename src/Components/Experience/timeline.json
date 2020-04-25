@@ -1,0 +1,112 @@
+[
+  {
+    "heading": "Junior Front End Developer",
+    "organization_name": "Rugby Australia",
+    "city": "Sydney",
+    "country": "Australia",
+    "start_date": "Jan 2020",
+    "end_date": "Present",
+    "role": "Full Time",
+    "responsibilities": [
+      "Design and Implementation of custom features in Sitecore CMS to align with organisations digital strategy",
+      "Implementation of a search for rugby community clubs across Australia, and integrated google maps",
+      "Delivered costs savings by migrating legacy video player (Brightcove) to VideoJS player including options such as analytics and Chromecast features",
+      "Implementation of a Video on Demand application including live matches for Rugby fans using ReactJs and Redux, hosted in AWS using bitbucket pipelines for continuous delivery"
+    ],
+    "tags": ["HTML", "Javascript", "CSS"],
+    "icon": "briefcase"
+  },
+  {
+    "heading": "Master of Information Technology in Data Analytics",
+    "organization_name": "University of Technology Sydney",
+    "city": "",
+    "country": "",
+    "start_date": "Feb 2018",
+    "end_date": "Feb 2020",
+    "role": "Full Time",
+    "responsibilities": [],
+    "icon": "graduation-cap"
+  },
+  {
+    "heading": "Front End Developer Intern",
+    "organization_name": "Rugby Australia",
+    "city": "Sydney",
+    "country": "Australia",
+    "start_date": "Aug 2019",
+    "end_date": "Dec 2019",
+    "role": "Part Time",
+    "responsibilities": [],
+    "icon": "briefcase"
+  },
+  {
+    "heading": "Software Engineer",
+    "organization_name": "BCU World",
+    "city": "Sydney",
+    "country": "Australia",
+    "start_date": "Jul 2019",
+    "end_date": "Aug 2019",
+    "role": "Part Time",
+    "responsibilities": [
+      "Developed cryptocurrency trading and trader administration web applications using ReactJs and deployed using Ali Cloud",
+      "Implementation of a Property Management Mobile App to connect between Property Managers and property sellers with messaging functionalities using React Native and Redux-Saga"
+    ],
+    "icon": "briefcase"
+  },
+  {
+    "heading": "Full Stack Developer",
+    "organization_name": "Beamafilm Pty Ltd,",
+    "city": "Sydney",
+    "country": "Australia",
+    "start_date": "Jun 2018",
+    "end_date": "Jun 2019",
+    "role": "Part Time",
+    "responsibilities": [
+      "Redeveloped organisations Video on Demand platform using MERN stack (MongoDB, Express.js, React & Node.js)",
+      "Deployed and configured modules successfully using AWS EC2 instance with Nginx and PM2",
+      "Implemented an efficient backend with caching for API requests",
+      "Handled multiple authentication flows efficiently using JWT token",
+      "Delivered a payment gateway system using Braintree for video rentals and subscriptions",
+      "Monitored the progress and mentored the team on React Framework and coding best practices"
+    ],
+    "icon": "briefcase"
+  },
+  {
+    "heading": "Associate Consultant – Technology",
+    "organization_name": "Virtusa Pvt Ltd.",
+    "city": "Colombo",
+    "country": "Sri Lanka",
+    "start_date": "Sep 2017",
+    "end_date": "Feb 2018",
+    "role": "Full Time",
+    "responsibilities": [
+      "Implementation of a Dashboard for developer’s code quality within the organisation with interactive charts using AngularJS, Java and MySQL and continuous delivery using Jenkins",
+      "Implementation of a Code review tool within the web application with code diffs, history, blame and review comments",
+      "Successfully migrated the database from OrientDB to MySQL using query DSL",
+      "Implementation of TV leader boards with real-time updates for information delivery across the organisation",
+      "Conducted Knowledge Transfer sessions for developers in onshore and offshore offices"
+    ],
+    "icon": "briefcase"
+  },
+  {
+    "heading": "Software Engineer",
+    "organization_name": "Virtusa Pvt Ltd.",
+    "city": "Colombo",
+    "country": "Sri Lanka",
+    "start_date": "Sep 2015",
+    "end_date": "Sep 2017",
+    "role": "Full Time",
+    "responsibilities": [],
+    "icon": "briefcase"
+  },
+  {
+    "heading": "Bachelor of Engineering (Honours) Software",
+    "organization_name": "University of Westminster",
+    "city": "",
+    "country": "",
+    "start_date": "Jan 2011",
+    "end_date": "Jan 2015",
+    "role": "Full Time",
+    "responsibilities": [],
+    "icon": "graduation-cap"
+  }
+]

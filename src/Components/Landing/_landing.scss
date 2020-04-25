@@ -1,0 +1,14 @@
+.personal-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  @include sm {
+    flex-direction: row;
+  }
+}
+.header-name {
+  color: $highlight;
+  font-size: 5em;
+}

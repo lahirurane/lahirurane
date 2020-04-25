@@ -1,0 +1,96 @@
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+$dark: #0b0c10;
+$dark-grey: #1f2833;
+$grey: #666666;
+$light-grey: #c5c6c7;
+$highlight: #66fcf1;
+$highlight-dark: #45a29e;
+
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+  color: $grey !important;
+}
+
+.main-container {
+  min-height: 100vh;
+}
+.sub-container {
+  overflow: scroll;
+  height: 100vh;
+  min-height: 500px;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  height: 100vh;
+}
+.scroll-snap {
+  scroll-snap-align: start;
+}
+.section:nth-child(1) {
+  height: 100vh;
+}
+.section:nth-child(1) {
+  background: $dark;
+}
+.center-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  color: $dark-grey;
+  font-weight: bold;
+}
+
+@import './Components/Landing/landing';
+@import './Components/About/about';
+@import './Components/Technologies/technologies';
+@import './Components/Experience/experience';
+@import './Components/ExternalLinks/externallinks';

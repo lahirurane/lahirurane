@@ -1,0 +1,14 @@
+.about {
+  .description {
+    display: block;
+    text-align: justify;
+    .external-profiles {
+      .fab {
+        &:hover {
+          color: $highlight-dark;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
